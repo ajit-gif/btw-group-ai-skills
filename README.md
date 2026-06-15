@@ -18,7 +18,39 @@ This repository contains reusable AI skills and orchestrators designed to create
 
 ---
 
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    User[User Request] --> Orch[Orchestrator]
+
+    Orch --> SEO[SEO Skills]
+    Orch --> Blog[Blog Skills]
+    Orch --> News[News Skills]
+
+    SEO --> Research[Research & Analysis]
+    SEO --> Content[Content Generation]
+    SEO --> Quality[EEAT & Verification]
+
+    Blog --> BlogOutput[Blog Content]
+    News --> NewsOutput[News Content]
+
+    Quality --> Final[Final Optimized Content]
+    BlogOutput --> Final
+    NewsOutput --> Final
+```
+
+---
+
 ## Repository Structure
+
+```text
+btw-group-ai-skills/
+├── skills/
+├── blog-skills/
+├── news-skills/
+└── README.md
+```
 
 ### skills/
 
@@ -77,6 +109,22 @@ News publishing workflow skills:
 
 ---
 
+## Visa Guide Workflow
+
+```mermaid
+flowchart LR
+    A[Keyword Research] --> B[User Intent]
+    B --> C[Competitor Analysis]
+    C --> D[SERP Analysis]
+    D --> E[Content Generation]
+    E --> F[EEAT Validation]
+    F --> G[AI Overview Optimization]
+    G --> H[FAQ & Schema]
+    H --> I[Final Content]
+```
+
+---
+
 ## Main Orchestrators
 
 ### Create Visa Guide
@@ -128,6 +176,18 @@ Coordinates news research, validation, optimization, and publishing.
 - News Publishing
 - Content Marketing
 - AI Content Workflows
+
+---
+
+## Workflow Coverage
+
+| Domain | Coverage |
+|----------|----------|
+| SEO | Research, SERP, EEAT, AI SEO |
+| Blog | Ideation, Writing, Publishing |
+| News | Research, Validation, Distribution |
+| Quality | Fact Checking, Readability, Humanization |
+| AI Optimization | AI Overviews, Schema, Structured Content |
 
 ---
 
