@@ -1,4 +1,4 @@
-# 🚀 BTW Group AI Skills
+# BTW Group AI Skills
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 What is this Repository?
+## What is this Repository?
 
 BTW Group AI Skills is a modular AI workflow framework containing specialized skills, orchestrators, and content pipelines.
 
@@ -28,7 +28,7 @@ The repository is organized into three major domains:
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
@@ -53,7 +53,7 @@ flowchart TD
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 btw-group-ai-skills/
@@ -92,7 +92,7 @@ btw-group-ai-skills/
 
 ---
 
-## 🔍 Skills Workflow (SEO & Content Engineering)
+## Skills Workflow (SEO & Content Engineering)
 
 ```mermaid
 flowchart LR
@@ -126,7 +126,7 @@ A[Keyword Research]
 
 ---
 
-## ✍️ Blog Skills Pipeline
+## Blog Skills Pipeline
 
 ```mermaid
 flowchart LR
@@ -152,7 +152,7 @@ A[Topic Ideation]
 
 ---
 
-## 📰 News Skills Pipeline
+## News Skills Pipeline
 
 ```mermaid
 flowchart LR
@@ -176,7 +176,7 @@ A[Source Validation]
 
 ---
 
-## ⭐ Key Capabilities
+## Key Capabilities
 
 - SEO-first AI workflows
 - AI Overview optimization
@@ -190,7 +190,7 @@ A[Source Validation]
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 - Travel & Visa Content
 - SEO Content Production
@@ -202,7 +202,7 @@ A[Source Validation]
 
 ---
 
-## 🚦 Workflow Coverage Matrix
+## Workflow Coverage Matrix
 
 | Capability | Skills | Blog Skills | News Skills |
 |------------|---------|------------|-------------|
@@ -216,12 +216,12 @@ A[Source Validation]
 
 ---
 
-## 🎯 Vision
+## Vision
 
 Create a complete AI-powered content operating system capable of producing high-quality, trustworthy, search-optimized, and publication-ready content across multiple content formats.
 
 ---
 
-## 📄 License
+## License
 
 Internal BTW Group project.
